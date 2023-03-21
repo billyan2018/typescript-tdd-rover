@@ -1,0 +1,25 @@
+{
+  "name": "typescript-tdd-rover",
+  "version": "1.0.0",
+  "description": "template project to start TDD with typescript",
+  "main": "index.ts",
+  "scripts": {
+  "test": "tsc & mocha dist/test/**/*.js",
+  "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+  "@types/chai": "^4.3.4",
+  "@types/eslint": "^8.4.10",
+  "@types/mocha": "^10.0.0",
+  "@types/node": "^18.15.3",
+  "@typescript-eslint/eslint-plugin": "^5.43.0",
+  "@typescript-eslint/parser": "^5.43.0",
+  "chai": "^4.3.7",
+  "eslint": "^8.28.0",
+  "mocha": "^10.1.0",
+  "mocha-each": "^2.0.1",
+  "typescript": "^4.9.3"
+  },
+  "author": "",
+  "license": "ISC"
+  }
